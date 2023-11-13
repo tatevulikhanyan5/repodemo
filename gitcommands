@@ -1,0 +1,33 @@
+Git commands:
+
+1. Set Global User Name and Email:
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+2. Initialize a New Repository:
+
+git init
+This command initializes a new Git repository in the current directory.
+
+3. Clone an Existing Repository:
+
+git clone <repository-url>
+Clone an existing repository from a remote server (e.g., GitHub).
+git clone https://username:token@github.com/username/repository.git
+
+4. Add All Changes to the Staging Area:
+git add .
+
+5. Pull Changes from the Default Remote Repository:
+git pull
+
+6. Commit Changes:
+git commit -m "Your commit message"
+
+7. Push to a Specific Remote Repository:
+git push origin main
+
+
+
+
+

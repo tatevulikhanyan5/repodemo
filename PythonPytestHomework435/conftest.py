@@ -47,7 +47,9 @@ def get_driver(request, get_browser):
         chrome_options.add_argument("--start-maximized")
         driver = webdriver.Chrome(options=chrome_options)
     elif get_browser == "firefox":
-        driver = webdriver.Firefox()
+        firefox_options = Options()
+        driver = webdriver.Firefox(firefox_options.add_argument(f"--window-size={1024},{768}")
+       )
     elif get_browser == "headless":
         chrome_options = Options()
         chrome_options.add_argument("--headless")

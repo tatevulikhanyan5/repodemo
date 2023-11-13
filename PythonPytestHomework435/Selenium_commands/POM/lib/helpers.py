@@ -2,6 +2,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import Select
+from PIL import Image, ImageChops #pip install selenium webdriver_manager Pillow
 from os import path
 
 driver = None
@@ -67,3 +68,14 @@ class Helpers:
 
     def get_file_in_temp_folder(self, FName):
         return path.join(path.dirname(path.dirname(path.realpath(__file__))), 'testdata\\' + FName)
+
+    def take_screenshot(self, file_name):
+        self.driver.save_screenshot(file_name)
+
+    def compare_images(self, file_name_1, file_name_2):
+        image1 = self.get_file_in_temp_folder(file_name_1)
+        image2 = self.get_file_in_temp_folder(file_name_2)
+        image1 = Image.open(image1)
+        image2 = Image.open(image2)
+        diff = ImageChops.difference(image1, image2)
+        return diff.getbbox() is None  # If there is no difference, getbbox() will be None

@@ -12,3 +12,10 @@ class HomePage(Helpers):
     def click_on_shoes_section(self):
         self.find_and_click(self.shoes_section)
 
+    def take_screenshot_and_compare(self):
+        self.take_screenshot('screenshots')
+        self.compare_images("Screenshot 2023-11-12 145425.png", "screenshots" )
+
+
+
+
