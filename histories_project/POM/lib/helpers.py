@@ -37,9 +37,6 @@ class Helpers:
     def switch_to_alert(self):
         return self.driver.switch_to.alert
 
-    def driver_back(self):
-        return self.driver.back()
-
     def refresh_page(self):
         self.driver.refresh()
 

@@ -1,0 +1,41 @@
+00:16:16 DEBUG driver not found in PATH, trying Selenium Manager
+00:16:16 DEBUG Executing: C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser firefox
+00:16:16 DEBUG Using driver at: C:\Users\LENOVO\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+00:16:17 DEBUG Started executable: `geckodriver` in a child process with pid: 27108
+00:16:18 DEBUG POST http://localhost:59887/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true, "moz:debuggerAddress": true, "pageLoadStrategy": "normal"}}}
+00:16:18 DEBUG Starting new HTTP connection (1): localhost:59887
+00:16:26 DEBUG http://localhost:59887 "POST /session HTTP/1.1" 200 747
+00:16:26 DEBUG Remote response: status=200 | data={"value":{"sessionId":"8f37ae6a-26ca-4b4e-a187-611d1cf52f94","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"119.0.1","moz:accessibilityChecks":false,"moz:buildID":"20231106151204","moz:debuggerAddress":"127.0.0.1:59888","moz:geckodriverVersion":"0.33.0","moz:headless":false,"moz:platformVersion":"10.0","moz:processID":28480,"moz:profile":"C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofileidjgSY","moz:shutdownTimeout":60000,"moz:webdriverClick":true,"moz:windowless":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '747', 'date': 'Thu, 23 Nov 2023 20:16:20 GMT'})
+00:16:26 DEBUG Finished Request
+00:16:26 DEBUG POST http://localhost:59887/session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/timeouts {"implicit": 10000}
+00:16:26 DEBUG http://localhost:59887 "POST /session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/timeouts HTTP/1.1" 200 14
+00:16:26 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Thu, 23 Nov 2023 20:16:26 GMT'})
+00:16:26 DEBUG Finished Request
+00:16:26 DEBUG POST http://localhost:59887/session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/url {"url": "https://www.history.com/topics/christmas/history-of-christmas"}
+00:16:31 DEBUG http://localhost:59887 "POST /session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/url HTTP/1.1" 200 14
+00:16:31 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Thu, 23 Nov 2023 20:16:26 GMT'})
+00:16:31 DEBUG Finished Request
+00:16:31 DEBUG POST http://localhost:59887/session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/element {"using": "link text", "value": "How Did Christmas Start?"}
+00:16:31 DEBUG http://localhost:59887 "POST /session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/element HTTP/1.1" 200 88
+00:16:31 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"4e535379-de6c-43ca-bd2e-09dcca9e95ee"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Thu, 23 Nov 2023 20:16:31 GMT'})
+00:16:31 DEBUG Finished Request
+00:16:31 DEBUG POST http://localhost:59887/session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/execute/sync {"script": "arguments[0].scrollIntoView();", "args": [{"element-6066-11e4-a52e-4f735466cecf": "4e535379-de6c-43ca-bd2e-09dcca9e95ee"}]}
+00:16:31 DEBUG http://localhost:59887 "POST /session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/execute/sync HTTP/1.1" 200 14
+00:16:31 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Thu, 23 Nov 2023 20:16:31 GMT'})
+00:16:31 DEBUG Finished Request
+00:16:31 DEBUG POST http://localhost:59887/session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/element/4e535379-de6c-43ca-bd2e-09dcca9e95ee/click {"id": "4e535379-de6c-43ca-bd2e-09dcca9e95ee"}
+00:16:31 DEBUG http://localhost:59887 "POST /session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/element/4e535379-de6c-43ca-bd2e-09dcca9e95ee/click HTTP/1.1" 200 14
+00:16:31 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Thu, 23 Nov 2023 20:16:31 GMT'})
+00:16:31 DEBUG Finished Request
+00:16:31 DEBUG POST http://localhost:59887/session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/element {"using": "css selector", "value": "[id=\"how-did-christmas-start\"]"}
+00:16:31 DEBUG http://localhost:59887 "POST /session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/element HTTP/1.1" 200 88
+00:16:31 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"e6d7dba5-a76b-460b-8093-a899eeb81bd8"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Thu, 23 Nov 2023 20:16:31 GMT'})
+00:16:32 DEBUG Finished Request
+00:16:32 DEBUG GET http://localhost:59887/session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/element/e6d7dba5-a76b-460b-8093-a899eeb81bd8/text {"id": "e6d7dba5-a76b-460b-8093-a899eeb81bd8"}
+00:16:32 DEBUG http://localhost:59887 "GET /session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94/element/e6d7dba5-a76b-460b-8093-a899eeb81bd8/text HTTP/1.1" 200 36
+00:16:32 DEBUG Remote response: status=200 | data={"value":"How Did Christmas Start?"} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '36', 'date': 'Thu, 23 Nov 2023 20:16:31 GMT'})
+00:16:32 DEBUG Finished Request
+00:16:32 DEBUG DELETE http://localhost:59887/session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94 {}
+00:16:36 DEBUG http://localhost:59887 "DELETE /session/8f37ae6a-26ca-4b4e-a187-611d1cf52f94 HTTP/1.1" 200 14
+00:16:36 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Thu, 23 Nov 2023 20:16:31 GMT'})
+00:16:36 DEBUG Finished Request

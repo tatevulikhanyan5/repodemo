@@ -1,0 +1,69 @@
+1699906551529	geckodriver	INFO	Listening on 127.0.0.1:49745
+1699906554589	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49746" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofile23FNqJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699906555777	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699906555995	Marionette	INFO	Listening on port 49755
+WebDriver BiDi listening on ws://127.0.0.1:49746
+Read port: 49755
+1699906556301	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49746/devtools/browser/1be8d993-a834-4060-9748-4d81bb7254d2
+JavaScript warning: https://www.history.com/editorial/_next/static/chunks/main-f71f0b5132b5008b.js, line 1: unreachable code after return statement
+1699906577042	Marionette	INFO	Stopped listening on port 49755
+JavaScript warning: https://www.history.com/editorial/_next/static/chunks/pages/_app-6ade0383b63e9173.js, line 1: Script terminated by timeout at:
+r@https://www.history.com/editorial/_next/static/chunks/pages/_app-6ade0383b63e9173.js:1:93507
+
+Dynamically enable window occlusion 1
+1700770388577	geckodriver	INFO	Listening on 127.0.0.1:59816
+1700770391652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59817" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofileJpMjhq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700770392180	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700770392288	Marionette	INFO	Listening on port 59824
+WebDriver BiDi listening on ws://127.0.0.1:59817
+Read port: 59824
+1700770392530	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59817/devtools/browser/0c4cf6b7-bc4d-42d5-9155-d6986a06a779
+JavaScript warning: https://www.history.com/editorial/_next/static/chunks/main-f71f0b5132b5008b.js, line 1: unreachable code after return statement
+1700770404493	Marionette	INFO	Stopped listening on port 59824
+JavaScript warning: https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js, line 1: Script terminated by timeout at:
+s@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:119696
+te@https://www.history.com/editorial/_next/static/chunks/components_layout_index_tsx-a9d9533d69a5e8e2.js:1:18181
+oo@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:59587
+Wo@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:69154
+Ku@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:112878
+Li@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:99130
+Ni@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:99058
+Pi@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:98919
+bi@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:95885
+./node_modules/react-dom/cjs/react-dom.production.min.js/Yl/<@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:45379
+./node_modules/scheduler/cjs/scheduler.production.min.js/n.unstable_runWithPriority@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:130057
+Ql@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:45156
+Yl@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:45326
+Kl@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:45259
+hi@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:93262
+zo@https://www.history.com/editorial/_next/static/chunks/framework-5593b64fd2bfd12f.js:1:64914
+onLoad@https://www.history.com/editorial/_next/static/chunks/components_layout_index_tsx-a9d9533d69a5e8e2.js:1:19176
+./node_modules/next/dist/client/script.js/m/j</<@https://www.history.com/editorial/_next/static/chunks/main-f71f0b5132b5008b.js:1:47437
+r@https://www.history.com/editorial/_next/static/chunks/pages/_app-15de27e94e6f816c.js:1:93646
+
+Dynamically enable window occlusion 1
+1700770577199	geckodriver	INFO	Listening on 127.0.0.1:59887
+1700770580187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59888" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofileidjgSY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700770580680	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700770580789	Marionette	INFO	Listening on port 59896
+WebDriver BiDi listening on ws://127.0.0.1:59888
+Read port: 59896
+1700770581112	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59888/devtools/browser/11a87e2f-7e17-4cb2-b353-7423b404250e
+JavaScript warning: https://www.history.com/editorial/_next/static/chunks/main-f71f0b5132b5008b.js, line 1: unreachable code after return statement
+1700770592081	Marionette	INFO	Stopped listening on port 59896
+JavaScript warning: https://www.history.com/editorial/_next/static/chunks/pages/_app-15de27e94e6f816c.js, line 1: Script terminated by timeout at:
+r@https://www.history.com/editorial/_next/static/chunks/pages/_app-15de27e94e6f816c.js:1:93507
+
+Dynamically enable window occlusion 1

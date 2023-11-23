@@ -2,6 +2,9 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+
+from histories_project.POM.pages.christmas_start_page import ChristmasStartedPage
+from histories_project.POM.pages.home_page import HomePage
 from histories_project.TestingData import test_data
 
 driver = None
@@ -51,8 +54,9 @@ def get_driver(request, get_browser):
     else:
         print("Driver not supported")
     driver.implicitly_wait(10)
-    # Add in here each page from the POM in order to initialize the driver for each one.
-    # request.cls.homepage = HomePage(driver)
+    ## Add in here each page from the POM in order to initialize the driver for each one.
+    request.cls.homepage = HomePage(driver)
+    request.cls.christmasstartpage = ChristmasStartedPage(driver)
     driver.get(test_data.url)
     yield driver
     driver.quit()
